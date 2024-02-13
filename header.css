@@ -30,6 +30,8 @@
     width: 200px;
 }
 .logo{
+    background-color: #d5c4a1;
+    color: #3c3836;
     height:65px;
     width: 65px;
     display:inline-block;
