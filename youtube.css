@@ -1,0 +1,71 @@
+body{
+    background: #282828;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "JetBrains Mono", monospace;
+    color: #d5c4a1;
+}
+::-webkit-scrollbar{
+    background-color: #282828;
+    max-width:6px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #d5c4a1;
+    border-radius: 3px;
+}
+.bg
+{
+    max-width:100%;
+    max-height:100%;
+    border-radius:25px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.bg:hover {
+    box-shadow: -17px 17px 1px rgba(0, 0, 0, 0.25);
+    }
+.bg:active{
+    opacity: 0.7;
+}
+.about-background{
+    min-width: 100px;
+    max-width: 700px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+}
+.about-background:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.author{
+    margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.author:hover{
+    cursor:default;
+}
+.sub-author:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+
+.about-bg{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.webpage-grid{
+    margin-left: 20px;
+    margin-right: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap:10px;
+}
