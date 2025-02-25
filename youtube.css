@@ -37,6 +37,11 @@ body{
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 0px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     
 }
 .about-background:hover{
